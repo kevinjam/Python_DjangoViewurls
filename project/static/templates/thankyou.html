@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+ 
+ {% block content %}
+ <div class='col-sm-12' style='text-align: center'>
+    
+   <h1>Contact Kevin by Filling the bellow Form</h1>
+     <form method='POST' action=''>{% csrf_token %}
+                
+                {{form.as_p}}
+                
+                <input type='submit' class='btn btn-default'>
+            </form>
+      </div>
+ 
+ {% endblock %}

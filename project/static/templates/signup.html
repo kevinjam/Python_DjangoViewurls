@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+
+{% block jumbotron %}
+
+<!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Geuza Apps!</h1>
+        <p class="lead">This App Help African Students to get latest programming books Items</p>
+        <a class="btn btn-large btn-success" href="#">Get started today</a>
+      </div>
+
+
+{% endblock %}
+
+
+        {% block content %}
+        
+        <!-- Example row of columns -->
+      <div class="row-fluid">
+        <div class="span3">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span3">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span3">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+      
+
+        
+        </div>
+        
+        
+        
+        <div class='span3'>
+              <!-- Paypal -->
+
+        
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="KNXWHLM5V7PGG">
+    <table>
+        <h2>Pre-Order</h2>
+        <p>Get my Tutorial Please...Pre-order</p>
+    <tr><td><input type="hidden" name="on0" value="Course">Course</td></tr><tr><td>
+     <select name="os0" class="form-control">
+            <option value="Basic">Basic $49.00 USD</option>
+            <option value="Basic +">Basic + $167.00 USD</option>
+            <option value="Premium">Premium $199.00 USD</option>
+    </select>
+    </td></tr>
+    </table>
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="submit" value="Donate"  class="btn btn-success">
+    </form>
+            
+            
+            
+            
+        </div>
+	 
+      </div>
+            
+            {% endblock %}
+       
